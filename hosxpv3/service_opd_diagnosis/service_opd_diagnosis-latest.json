@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "service_opd_diagnosis",
+    "version": "0.0.1",
+    "query": "SELECT o.vn, o.hn, UPPER(o.icd10) as diagnosis_code, o.diagtype as diagnosis_type from ovstdiag as o join icd101 as icd on icd.code=UPPER(o.icd10) WHERE TIMESTAMP ( o.vstdate, o.vsttime ) BETWEEN #startDateTime and #endDateTime"
+}

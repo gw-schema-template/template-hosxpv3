@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "service_ipd_diagnosis",
+    "version": "0.0.1",
+    "query": "SELECT i.hn AS hn, i.vn AS vn, i.vn AS an, o.vstdate AS visit_date, o.vsttime AS visit_time, i.regdate AS admit_date, i.regtime AS admit_time, id.icd10 AS diagnosis_code, id.diagtype as diagnosis_type FROM ipt i JOIN ovst o ON o.hn = i.hn  AND o.vn = i.vn  AND o.an = i.an JOIN iptdiag id ON id.hn = i.hn  AND id.an = i.an WHERE TIMESTAMP ( i.dchdate, i.dchtime ) BETWEEN #startDateTime and #endDateTime"
+}

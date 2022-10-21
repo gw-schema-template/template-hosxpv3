@@ -1,0 +1,87 @@
+{
+  "nameList": [
+    {
+      "id": 1,
+      "name": "การนัดหมายผุ้ป่วยนอก",
+      "key": "appointment_opd",
+      "caseTricker": [2],
+      "state": [{ "q": "appointment_opd" }, { "q": "person" }]
+    },
+    {
+      "id": 2,
+      "name": "การนัดหมายผู้่ป่วยใน",
+      "key": "appointment_ipd",
+      "caseTricker": [1, 2],
+      "state": [{ "q": "appointment_ipd" }, { "q": "person" }]
+    },
+    {
+      "id": 3,
+      "name": "การคัดกรอง",
+      "key": "sevice_opd_screening",
+      "caseTricker": [1, 2],
+      "state": [
+        { "q": "service_opd_screening" },
+        { "q": "service_opd_vn" },
+        { "q": "person" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "การรับบริการผู้ป่วยนอก",
+      "key": "sevice_opd",
+      "caseTricker": [1, 2],
+      "state": [{ "q": "service_opd_date" }, { "q": "person" }]
+    },
+    {
+      "id": 5,
+      "name": "การรับวินิจฉัยผู้ป่วยนอก",
+      "key": "sevice_opd_diagnosis",
+      "caseTricker": [1, 2],
+      "state": [
+        { "q": "service_opd_diagnosis" },
+        { "q": "service_opd_vn" },
+        { "q": "person" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "การรับยาผู้ป่วยนอก",
+      "key": "sevice_opd_drug",
+      "caseTricker": [1, 2],
+      "state": [
+        { "q": "service_opd_drug" },
+        { "q": "service_opd_vn" },
+        { "q": "person" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "การรับบริการผู้ป่วยใน",
+      "key": "sevice_ipd",
+      "caseTricker": [1, 2],
+      "state": [{ "q": "service_ipd_date" }, { "q": "person" }]
+    },
+    {
+      "id": 8,
+      "name": "การรับวินิจฉัยผู้ป่วยใน",
+      "key": "sevice_ipd_diagnosis",
+      "caseTricker": [1, 2],
+      "state": [
+        { "q": "service_ipd_diagnosis" },
+        { "q": "service_ipd_an" },
+        { "q": "person" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "การรับยาผู้ป่วยใน",
+      "key": "sevice_ipd_drug",
+      "caseTricker": [1, 2],
+      "state": [
+        { "q": "service_ipd_drug" },
+        { "q": "service_ipd_an" },
+        { "q": "person" }
+      ]
+    }
+  ]
+}

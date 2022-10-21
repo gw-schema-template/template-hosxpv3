@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "service_opd_screening",
+    "version": "0.0.1",
+    "query": "select vn, hn, bpd as bpd, bps as bps, bw as weight, cc as chief_complain, hr as hearth_rate, pulse as pulse_rate, temperature as temperature, rr as respiratory_rate, height as height, waist as waist from opdscreen WHERE TIMESTAMP ( o.vstdate, o.vsttime ) BETWEEN #startDateTime and #endDateTime"
+}

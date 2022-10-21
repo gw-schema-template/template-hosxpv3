@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "appointment_opd",
+    "version": "0.0.1",
+    "query": "SELECT o.hn AS hn, o.vn AS vn, o.nextdate AS appointment_date, o.nexttime AS appointment_start, o.nexttime_end AS appointment_end, o.app_cause AS cause, o.clinic AS sub_department, o.note AS note  FROM oapp AS o JOIN ovst ov on ov.hn =o.hn WHERE o.vstdate = #date"
+}
