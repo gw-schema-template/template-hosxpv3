@@ -17,7 +17,7 @@
     {
       "id": 3,
       "name": "การคัดกรอง",
-      "key": "sevice_opd_screening",
+      "key": "service_opd_screening",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_screening" },
@@ -28,14 +28,14 @@
     {
       "id": 4,
       "name": "การรับบริการผู้ป่วยนอก",
-      "key": "sevice_opd",
+      "key": "service_opd",
       "caseTricker": [1, 2],
       "state": [{ "q": "service_opd_date" }, { "q": "person" }]
     },
     {
       "id": 5,
       "name": "การรับวินิจฉัยผู้ป่วยนอก",
-      "key": "sevice_opd_diagnosis",
+      "key": "service_opd_diagnosis",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_diagnosis" },
@@ -46,7 +46,7 @@
     {
       "id": 6,
       "name": "การรับยาผู้ป่วยนอก",
-      "key": "sevice_opd_drug",
+      "key": "service_opd_drug",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_drug" },
@@ -57,14 +57,14 @@
     {
       "id": 7,
       "name": "การรับบริการผู้ป่วยใน",
-      "key": "sevice_ipd",
+      "key": "service_ipd",
       "caseTricker": [1, 2],
       "state": [{ "q": "service_ipd_date" }, { "q": "person" }]
     },
     {
       "id": 8,
       "name": "การรับวินิจฉัยผู้ป่วยใน",
-      "key": "sevice_ipd_diagnosis",
+      "key": "service_ipd_diagnosis",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_ipd_diagnosis" },
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "name": "การรับยาผู้ป่วยใน",
-      "key": "sevice_ipd_drug",
+      "key": "service_ipd_drug",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_ipd_drug" },
