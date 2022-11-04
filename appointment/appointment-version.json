@@ -1,6 +1,6 @@
 {
 	"venders": "hosxpv3",
-	"schemaName": "appointment_ipd",
+	"schemaName": "appointment",
 	"version": [
 		{
 			"tag": "0.0.1",
