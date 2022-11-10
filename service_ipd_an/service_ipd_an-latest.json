@@ -2,5 +2,5 @@
     "venders": "hosxpv3",
     "schemaName": "service_ipd_an",
     "version": "0.0.1",
-    "query": "SELECT i.hn AS hn, i.vn as vn, i.vn as an, o.vstdate AS visit_date, o.vsttime AS visit_time, i.regdate as admit_date, i.regtime as admit_time, i.dchdate as discharge_date, i.dchtime as discharge_time, d.`name` as discharge_reason, i.dchtype as dchtype FROM ipt i JOIN ovst o on o.hn = i.hn and o.vn = i.vn and o.an = i.an JOIN dchtype d on d.dchtype = i.dchtype WHERE TIMESTAMP ( i.dchdate, i.dchtime ) BETWEEN #startDateTime and #endDateTime"
+    "query": "SELECT i.hn AS hn, i.vn as vn, i.vn as an, o.vstdate AS visit_date, o.vsttime AS visit_time, i.regdate as admit_date, i.regtime as admit_time, i.dchdate as discharge_date, i.dchtime as discharge_time, d.`name` as discharge_reason, i.dchtype as discharge_type FROM ipt i JOIN ovst o on o.hn = i.hn and o.vn = i.vn and o.an = i.an JOIN dchtype d on d.dchtype = i.dchtype WHERE TIMESTAMP ( i.dchdate, i.dchtime ) BETWEEN #startDateTime and #endDateTime"
 }

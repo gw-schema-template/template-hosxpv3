@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "drug_code",
+    "version": "0.0.1",
+    "query": "SELECT icode as code, name as name FROM s_drugitems"
+}

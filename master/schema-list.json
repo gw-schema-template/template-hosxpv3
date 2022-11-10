@@ -1,0 +1,88 @@
+{
+  "nameList": [
+    {
+      "id": 1,
+      "name": "รหัสคำนำหน้าชื่อ",
+      "key": "title_code",
+      "q": "title_code"
+    },
+    {
+      "id": 2,
+      "name": "รหัสเพศ",
+      "key": "gender",
+      "q": "gender"
+    },
+    {
+      "id": 3,
+      "name": "รหัสหมู่เลือดอาร์เอช",
+      "key": "rh_blood_group",
+      "q": "rh_blood_group"
+    },
+    {
+      "id": 4,
+      "name": "รหัสสัญชาติ",
+      "key": "nationality_code",
+      "q": "nationality_code"
+    },
+    {
+      "id": 5,
+      "name": "รหัสสถานะสมรส",
+      "key": "marital_status",
+      "q": "marital_status"
+    },
+    {
+      "id": 6,
+      "name": "รหัสอาชีพ",
+      "key": "occupation_code",
+      "q": "occupation_code"
+    },
+    {
+      "id": 7,
+      "name": "รหัสแผนก",
+      "key": "main_department_code",
+      "q": "service_ipd_drug"
+    },
+    {
+      "id": 8,
+      "name": "รหัสแผนกย่อย",
+      "key": "sub_department_code",
+      "q": "sub_department_code"
+    },
+    {
+      "id": 9,
+      "name": "รหัสสิทธิ",
+      "key": "pttype",
+      "q": "pttype"
+    },
+    {
+      "id": 10,
+      "name": "รหัสการวินิจฉัย",
+      "key": "diagnosis_code",
+      "q": "diagnosis_code"
+    },
+    {
+      "id": 11,
+      "name": "รหัสประเภทการวินิจฉัย",
+      "key": "diagnosis_type",
+      "q": "diagnosis_type"
+    },
+    {
+      "id": 12,
+      "name": "รหัสยา",
+      "key": "drug_code",
+      "q": "drug_code"
+    },
+    {
+      "id": 13,
+      "name": "รหัสหน่วย",
+      "key": "unit",
+      "q": "unit"
+    },
+    {
+      "id": 14,
+      "name": "รหัสประเภทการจำหน่าย",
+      "key": "discharge_type",
+      "q": "discharge_type"
+    }
+  ]
+}

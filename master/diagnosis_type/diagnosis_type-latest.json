@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "diagnosis_type",
+    "version": "0.0.1",
+    "query": "SELECT diagtype as code, name as name FROM diagtype"
+}
