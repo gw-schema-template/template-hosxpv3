@@ -2,22 +2,15 @@
   "nameList": [
     {
       "id": 1,
-      "name": "การนัดหมายผุ้ป่วยนอก",
-      "key": "appointment_opd",
-      "caseTricker": [2],
-      "state": [{ "q": "appointment_opd" }, { "q": "person" }]
+      "name": "การนัดหมายผุ้ป่วย",
+      "key": "appointment",
+      "caseTricker": [1, 2],
+      "state": [{ "q": "appointment" }, { "q": "person" }]
     },
     {
       "id": 2,
-      "name": "การนัดหมายผู้่ป่วยใน",
-      "key": "appointment_ipd",
-      "caseTricker": [1, 2],
-      "state": [{ "q": "appointment_ipd" }, { "q": "person" }]
-    },
-    {
-      "id": 3,
       "name": "การคัดกรอง",
-      "key": "sevice_opd_screening",
+      "key": "service_opd_screening",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_screening" },
@@ -26,16 +19,16 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "การรับบริการผู้ป่วยนอก",
-      "key": "sevice_opd",
+      "key": "service_opd",
       "caseTricker": [1, 2],
       "state": [{ "q": "service_opd_date" }, { "q": "person" }]
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "การรับวินิจฉัยผู้ป่วยนอก",
-      "key": "sevice_opd_diagnosis",
+      "key": "service_opd_diagnosis",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_diagnosis" },
@@ -44,9 +37,9 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "การรับยาผู้ป่วยนอก",
-      "key": "sevice_opd_drug",
+      "key": "service_opd_drug",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_drug" },
@@ -55,16 +48,16 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "การรับบริการผู้ป่วยใน",
-      "key": "sevice_ipd",
+      "key": "service_ipd",
       "caseTricker": [1, 2],
       "state": [{ "q": "service_ipd_date" }, { "q": "person" }]
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "การรับวินิจฉัยผู้ป่วยใน",
-      "key": "sevice_ipd_diagnosis",
+      "key": "service_ipd_diagnosis",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_ipd_diagnosis" },
@@ -73,9 +66,9 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "การรับยาผู้ป่วยใน",
-      "key": "sevice_ipd_drug",
+      "key": "service_ipd_drug",
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_ipd_drug" },
