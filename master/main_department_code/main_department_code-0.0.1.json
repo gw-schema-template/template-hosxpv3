@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "main_department_code",
+    "version": "0.0.1",
+    "query": "SELECT spclty as code, name as name FROM spclty"
+}

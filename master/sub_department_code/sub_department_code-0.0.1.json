@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "sub_department_code",
+    "version": "0.0.1",
+    "query": "SELECT depcode as code, department as name FROM kskdepartment"
+}
