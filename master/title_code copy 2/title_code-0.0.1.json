@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "title_code",
+    "version": "0.0.1",
+    "query": "SELECT name as code, name as name FROM pname"
+}

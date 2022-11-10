@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "rh_blood_group",
+    "version": "0.0.1",
+    "query": "SELECT bloodgroup_rh as code, bloodgroup_rh as name FROM patient GROUP BY bloodgroup_rh"
+}

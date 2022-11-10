@@ -1,0 +1,6 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "gender",
+    "version": "0.0.1",
+    "query": "SELECT code as code, name as name FROM sex"
+}
