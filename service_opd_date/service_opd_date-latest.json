@@ -2,5 +2,5 @@
     "venders": "hosxpv3",
     "schemaName": "service_opd_date",
     "version": "0.0.1",
-    "query": "SELECT o.hn, o.vn, o.an, o.vstdate AS visit_date, o.vsttime AS visit_time, sp.NAME AS main_department, k.department AS sub_department, o.pttype AS pttype, o.diag_text AS diagnosis_text FROM ovst AS o JOIN spclty AS sp ON sp.spclty = o.spclty JOIN kskdepartment AS k ON k.depcode = o.main_dep WHERE TIMESTAMP ( o.vstdate, o.vsttime ) BETWEEN #startDateTime and #endDateTime"
+    "query": "SELECT o.hn, o.vn, o.an, o.vstdate AS visit_date, o.vsttime AS visit_time, sp.NAME AS main_department_code, k.department AS sub_department, o.pttype AS pttype, o.diag_text AS diagnosis_text FROM ovst AS o JOIN spclty AS sp ON sp.spclty = o.spclty JOIN kskdepartment AS k ON k.depcode = o.main_dep WHERE TIMESTAMP ( o.vstdate, o.vsttime ) BETWEEN #startDateTime and #endDateTime"
 }
