@@ -5,7 +5,7 @@
       "name": "การนัดหมายผุ้ป่วย",
       "key": "appointment",
       "caseTricker": [1, 2],
-      "state": [{ "q": "appointment" }, { "q": "person" }]
+      "state": [{ "q": "appointment" }, { "q": "person" ,"variable":"hn", "fromValue":0}]
     },
     {
       "id": 2,
@@ -14,8 +14,8 @@
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_screening" },
-        { "q": "service_opd_vn" },
-        { "q": "person" }
+        { "q": "service_opd_vn" ,"variable":"vn", "fromValue":0},
+        { "q": "person" ,"variable":"hn", "fromValue":0}
       ]
     },
     {
@@ -23,7 +23,7 @@
       "name": "การรับบริการผู้ป่วยนอก",
       "key": "service_opd",
       "caseTricker": [1, 2],
-      "state": [{ "q": "service_opd_date" }, { "q": "person" }]
+      "state": [{ "q": "service_opd_date" }, { "q": "person" ,"variable":"hn", "fromValue":0}]
     },
     {
       "id": 4,
@@ -32,8 +32,8 @@
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_diagnosis" },
-        { "q": "service_opd_vn" },
-        { "q": "person" }
+        { "q": "service_opd_vn" ,"variable":"vn", "fromValue":0},
+        { "q": "person" ,"variable":"hn", "fromValue":0}
       ]
     },
     {
@@ -43,8 +43,8 @@
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_opd_drug" },
-        { "q": "service_opd_vn" },
-        { "q": "person" }
+        { "q": "service_opd_vn" ,"variable":"vn", "fromValue":0},
+        { "q": "person" ,"variable":"hn", "fromValue":0}
       ]
     },
     {
@@ -52,7 +52,7 @@
       "name": "การรับบริการผู้ป่วยใน",
       "key": "service_ipd",
       "caseTricker": [1, 2],
-      "state": [{ "q": "service_ipd_date" }, { "q": "person" }]
+      "state": [{ "q": "service_ipd_date" }, { "q": "person" ,"variable":"hn", "fromValue":0}]
     },
     {
       "id": 7,
@@ -61,8 +61,8 @@
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_ipd_diagnosis" },
-        { "q": "service_ipd_an" },
-        { "q": "person" }
+        { "q": "service_ipd_an" ,"variable":"an", "fromValue":0},
+        { "q": "person" ,"variable":"hn", "fromValue":0}
       ]
     },
     {
@@ -72,8 +72,8 @@
       "caseTricker": [1, 2],
       "state": [
         { "q": "service_ipd_drug" },
-        { "q": "service_ipd_an" },
-        { "q": "person" }
+        { "q": "service_ipd_an" ,"variable":"an", "fromValue":0},
+        { "q": "person" ,"variable":"hn", "fromValue":0}
       ]
     }
   ]
