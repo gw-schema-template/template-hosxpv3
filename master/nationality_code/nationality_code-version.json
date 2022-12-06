@@ -1,6 +1,7 @@
 {
 	"venders": "hosxpv3",
 	"schemaName": "nationality_code",
+	"fileName": "nationality_code",
 	"version": [
 		{
 			"tag": "0.0.1",

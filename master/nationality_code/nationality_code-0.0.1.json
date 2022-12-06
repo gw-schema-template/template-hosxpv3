@@ -1,6 +1,7 @@
 {
     "venders": "hosxpv3",
     "schemaName": "nationality_code",
+    "fileName": "nationality_code",
     "version": "0.0.1",
     "query": "SELECT nationality as code, name as name FROM nationality"
 }

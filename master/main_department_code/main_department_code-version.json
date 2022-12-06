@@ -1,6 +1,7 @@
 {
 	"venders": "hosxpv3",
 	"schemaName": "main_department_code",
+	"fileName": "main_department_code",
 	"version": [
 		{
 			"tag": "0.0.1",

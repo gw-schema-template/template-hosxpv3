@@ -1,6 +1,7 @@
 {
     "venders": "hosxpv3",
     "schemaName": "diagnosis_code",
+    "fileName": "diagnosis_code",
     "version": "0.0.1",
     "query": "SELECT code as code, name as name FROM icd101"
 }

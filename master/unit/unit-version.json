@@ -1,6 +1,7 @@
 {
 	"venders": "hosxpv3",
 	"schemaName": "unit",
+	"fileName": "unit",
 	"version": [
 		{
 			"tag": "0.0.1",

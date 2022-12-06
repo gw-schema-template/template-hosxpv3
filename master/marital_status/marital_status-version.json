@@ -1,6 +1,7 @@
 {
 	"venders": "hosxpv3",
 	"schemaName": "marital_status",
+	"fileName": "marital_status",
 	"version": [
 		{
 			"tag": "0.0.1",

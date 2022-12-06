@@ -1,6 +1,7 @@
 {
 	"venders": "hosxpv3",
 	"schemaName": "discharge_type",
+	"fileName": "discharge_type",
 	"version": [
 		{
 			"tag": "0.0.1",

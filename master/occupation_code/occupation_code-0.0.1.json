@@ -1,6 +1,7 @@
 {
     "venders": "hosxpv3",
     "schemaName": "occupation_code",
+    "fileName": "occupation_code",
     "version": "0.0.1",
     "query": "SELECT occupation as code, name as name FROM occupation"
 }

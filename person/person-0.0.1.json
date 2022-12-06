@@ -1,6 +1,7 @@
 {
   "venders": "hosxpv3",
   "schemaName": "person",
-  "version": "0.0.1",
+  "fileName": "person",
+  "version": "0.0.2",
   "query": "SELECT p.cid AS cid, pt.hn AS hn, p.pname AS title_code, p.fname AS first_name, NULL AS middle_name, p.lname AS last_name, p.birthdate AS birthdate, p.sex AS gender, p.bloodgroup_rh AS rh_blood_group, p.blood_group AS blood_group, p.nationality AS nationality_code, p.marrystatus AS marital_status FROM person AS p JOIN patient pt ON pt.cid = p.cid where pt.hn in (#hn)"
 }

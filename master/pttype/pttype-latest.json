@@ -1,6 +1,7 @@
 {
     "venders": "hosxpv3",
     "schemaName": "pttype",
+    "fileName": "pttype",
     "version": "0.0.1",
     "query": "SELECT pttype as code, name as name FROM pttype"
 }

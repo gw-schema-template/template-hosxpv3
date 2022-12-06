@@ -1,6 +1,7 @@
 {
     "venders": "hosxpv3",
     "schemaName": "unit",
+    "fileName": "unit",
     "version": "0.0.1",
     "query": "SELECT usage_unit_code as code, usage_unit_name as name FROM opi_usage_unit_code"
 }

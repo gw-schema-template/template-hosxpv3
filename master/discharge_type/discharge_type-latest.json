@@ -1,6 +1,7 @@
 {
     "venders": "hosxpv3",
     "schemaName": "discharge_type",
+    "fileName": "discharge_type",
     "version": "0.0.1",
     "query": "SELECT dchtype as code, name as name FROM dchtype"
 }

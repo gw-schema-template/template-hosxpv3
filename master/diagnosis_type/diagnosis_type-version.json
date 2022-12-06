@@ -1,6 +1,7 @@
 {
 	"venders": "hosxpv3",
 	"schemaName": "diagnosis_type",
+	"fileName": "diagnosis_type",
 	"version": [
 		{
 			"tag": "0.0.1",

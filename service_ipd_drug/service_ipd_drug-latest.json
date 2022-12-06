@@ -1,6 +1,7 @@
 {
     "venders": "hosxpv3",
     "schemaName": "service_ipd_drug",
-    "version": "0.0.1",
+    "fileName": "service_ipd_drug",
+    "version": "0.0.2",
     "query": "SELECT o.vn AS vn, o.hn, o.an, s.NAME AS drug_name, o.qty AS qty, o.icode AS drug_code, concat( ( CASE WHEN o.sp_use != '' THEN su.name1 WHEN o.sp_use = '' THEN du.ename1 END ), ' ', ( CASE WHEN o.sp_use != '' THEN su.name2 WHEN o.sp_use = '' THEN du.ename2 END ), ' ', ( CASE WHEN o.sp_use != '' THEN su.name3 WHEN o.sp_use = '' THEN du.ename3 END )) AS 'usage' FROM opitemrece AS o JOIN s_drugitems s ON s.icode = o.icode JOIN drugusage AS du ON du.drugusage = o.drugusage  JOIN sp_use AS su ON su.sp_use = o.sp_use WHERE TIMESTAMP ( o.rxdate, o.rxtime ) BETWEEN #startDateTime and #endDateTime AND o.vn is null"
 }
