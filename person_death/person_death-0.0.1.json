@@ -1,0 +1,7 @@
+{
+    "venders": "hosxpv3",
+    "schemaName": "person_death",
+    "fileName": "person_death",
+    "version": "0.0.2",
+    "query": "SELECT p.cid, pd.death_date AS date_of_death, pd.death_cause AS cause_of_death, pd.death_place AS place_of_death FROM person AS p JOIN person_death AS pd WHERE pd.last_update BETWEEN #startDateTime and #endDateTime GROUP BY pd.hos_guid"
+}
